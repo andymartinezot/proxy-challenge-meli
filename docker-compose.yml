@@ -9,3 +9,4 @@ services:
     ports:
       - "8080:80"
     restart: always
+#docker-compose created by Andy Martinez @andymartinezot in linkedin
