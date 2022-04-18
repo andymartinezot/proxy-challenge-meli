@@ -1,0 +1,2 @@
+docker build -t andymartinez/nginx_proxy_meli .
+docker run -d -p 8080:80 --name nginx_proxy_meli andymartinez/nginx_proxy_meli
