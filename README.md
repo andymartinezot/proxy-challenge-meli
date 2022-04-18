@@ -23,7 +23,7 @@ curl http://127.0.0.1:8080/categories/MLA5725
 
 Check the statistics of the proxy:
 ```
-http://http://127.0.0.1:8080/nginx_status
+curl http://127.0.0.1:8080/nginx_status
 ```
 
 ## Solution diagram
