@@ -9,4 +9,20 @@ services:
     ports:
       - "8080:80"
     restart: always
+
+  exporter-service:
+    build:
+      context: exporter
+      dockerfile: Dockerfile
+    ports:
+      - "9113:9113"
+  
+  prometheus:
+    build:
+      context: prometheus
+      dockerfile: Dockerfile
+    ports:
+      - "9090:9090"
+
+      
 #docker-compose created by Andy Martinez @andymartinezot in linkedin
