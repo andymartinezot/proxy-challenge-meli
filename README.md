@@ -26,10 +26,21 @@ Check the statistics of the proxy:
 curl http://127.0.0.1:8080/nginx_status
 ```
 
+Check the Nginx metrics in Prometheus metrics format:
+```
+http://127.0.0.1:9113/metrics
+```
+
+Check the Nginx metrics in Prometheus:
+```
+http://127.0.0.1:9090
+```
+
 ## Solution diagram
-![Untitled Diagram drawio](https://user-images.githubusercontent.com/77750560/163820888-a1e09a44-b072-4505-b0a2-1de624f0fbb8.png)
+![diagram](https://user-images.githubusercontent.com/77750560/194356318-be7cd5b6-4a12-40e6-b48f-263c4ceb9bce.jpg)
 
 ## Notes
-* Proxy exclusively created with [Nginx](https://www.nginx.com/)
+* Proxy exclusively created with [Nginx](https://www.nginx.com/)![Uploading diagram.png…]()
+
 * The proxy is configured to accept 50000 requests per second.
 * It's possible to filter the requests based on IP addresses (change nginx.conf)
