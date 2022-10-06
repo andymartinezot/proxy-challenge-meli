@@ -3,4 +3,5 @@ scrape_configs:
     scrape_interval: 15s
     metrics_path: '/metrics'
     static_configs:
-      - targets: ['${DOCKER_GATEWAY_HOST:-host.docker.internal}:9113']
+      - targets: ['192.168.0.53:9113'] ##NOTE CHANGE THE IP ADDRESS WITH YOUR IP ADDRESS##
+#yaml file created by Andy Martinez @andymartinezot in linkedin
