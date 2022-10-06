@@ -10,6 +10,8 @@ These instructions will get you a copy of the project up and running on your loc
 https://www.docker.com/get-started
 
 #### Development Profile
+NOTE: before running the Docker Compose, modify the IP addresses of exporter/Dockerfile and prometheus/prometheus.yml files with your own IP Address.
+
 
 Run in the command line:
 ```
