@@ -40,7 +40,6 @@ http://127.0.0.1:9090
 ![diagram](https://user-images.githubusercontent.com/77750560/194356318-be7cd5b6-4a12-40e6-b48f-263c4ceb9bce.jpg)
 
 ## Notes
-* Proxy exclusively created with [Nginx](https://www.nginx.com/)![Uploading diagram.png…]()
-
+* Proxy exclusively created with Nginx
 * The proxy is configured to accept 50000 requests per second.
 * It's possible to filter the requests based on IP addresses (change nginx.conf)
